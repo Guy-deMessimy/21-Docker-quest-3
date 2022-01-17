@@ -24,7 +24,7 @@ process.on("SIGTERM", () => {
 
   app.get("/", (req, res) => {
     console.log("Got a request");
-    res.json({ message: "Hey, I'm Tom, the API bro" });
+    res.json({ message: "Hey, I'm Tom, the API brother" });
   });
 
   app.post("/", async (req, res) => {
