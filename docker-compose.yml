@@ -1,6 +1,8 @@
 # docker-compose.yml
 
 services:
+    client:
+        image: gdemessimy/hello-app
     server:
         image: express-docker
         ports: 
